@@ -55,7 +55,7 @@ const DashboardPage = () => {
       </div>
 
       <h2 className="app-title">All courses</h2>
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-4 mb-8 gap-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-4 mb-8 gap-7">
         {courses.map((course, index) => {
           return <CourseCard key={index} {...course} />;
         })}
