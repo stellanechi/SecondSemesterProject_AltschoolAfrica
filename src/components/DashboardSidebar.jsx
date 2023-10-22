@@ -76,7 +76,8 @@ const DashboardSidebar = ({
             {navlinks.map((value, index) => {
               return (
                 <li key={index}>
-                  <Link
+                  <Link 
+                  onClick={handleClose}
                     to={value.link}
                     className={`text-gray-200 gap-3 w-max hover:bg-blue-500 transition-all duration-300  px-3 py-2 rounded-xl flex items-center ${
                       activeRoute === value.name

@@ -11,6 +11,10 @@ const socialLink = [
     icon: "bi:github",
     link: "https://github.com/stellanechi",
   },
+  {
+    icon: "ri:twitter-x-fill",
+    link: "https://github.com/stellanechi",
+  },
 ];
 
 const ProfilePage = () => {
@@ -70,7 +74,7 @@ const ProfilePage = () => {
             <div className="flex items-center justify-center gap-3.5">
               {socialLink.map(({ icon, link }, key) => {
                 return (
-                  <Link target="_parent" key={key}>
+                  <Link target="_blank" to={link} key={key}>
                     <Icon
                       className="text-2xl text-gray-900 hover:text-blue-500 transition-all duration-300"
                       icon={icon}
