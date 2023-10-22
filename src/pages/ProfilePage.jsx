@@ -4,8 +4,8 @@ import StelleEnehPicture from "../assets/stella-eneh.png";
 
 const socialLink = [
   {
-    icon: "akar-icons:facebook-fill",
-    link: "https://web.facebook.com/stella.eneh.1",
+    icon: "devicon:linkedin",
+    link: "https://www.linkedin.com/in/stella-eneh/",
   },
   {
     icon: "bi:github",
@@ -13,7 +13,7 @@ const socialLink = [
   },
   {
     icon: "ri:twitter-x-fill",
-    link: "https://github.com/stellanechi",
+    link: "https://twitter.com/StellaEneh_",
   },
 ];
 
