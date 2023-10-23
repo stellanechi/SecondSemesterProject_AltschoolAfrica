@@ -17,7 +17,7 @@ const featuredCardData = [
     title: "Engineering",
     totalRating: 4.9, // from zero to 5 with possibly 1 decimal place
     totalReviews: 3620,
-    author: "Alt School of Engineering",
+    author: "AltSchool of Engineering",
     price: 0,
     link: "https://engineering.altschoolafrica.com/",
   },
@@ -27,7 +27,7 @@ const featuredCardData = [
     title: "Product",
     totalRating: 4.2, // from zero to 5 with possibly 1 decimal place
     totalReviews: 3032,
-    author: "Alt School of Product",
+    author: "AltSchool of Product",
     price: 0,
     link: "https://product.altschoolafrica.com/",
   },
@@ -37,7 +37,7 @@ const featuredCardData = [
     title: "Data",
     totalRating: 4.5, // from zero to 5 with possibly 1 decimal place
     totalReviews: 1403,
-    author: "Alt School of Data",
+    author: "AltSchool of Data",
     price: 0,
     link: "https://data.altschoolafrica.com/",
   },
